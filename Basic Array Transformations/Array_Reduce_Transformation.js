@@ -1,8 +1,4 @@
-
-
-
-
-var reduce = function(nums, fn, init) {
+let reduce = function(nums, fn, init) {
     let val = init; // Start with the initial value
     for (let i = 0; i < nums.length; i++) {
         val = fn(val, nums[i]); // Apply the function to the accumulated value and current item
